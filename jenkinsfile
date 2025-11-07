@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        SERVER_IP    = '<172.31.1.226>'
+        SERVER_IP    = '<13.200.222.229>'
         SSH_CRED_ID  = 'node-key'
         TOMCAT_PATH  = '/var/lib/tomcat10/webapps'
         TOMCAT_SVC   = 'tomcat10'
@@ -41,7 +41,7 @@ pipeline {
 
     post {
         success {
-            echo "App deployed! Visit: http://13.233.131.236:8080/"
+            echo "App deployed! Visit: http:///"
         }
         failure {
             echo "Deployment failed."
