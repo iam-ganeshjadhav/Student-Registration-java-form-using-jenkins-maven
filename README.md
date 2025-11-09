@@ -13,7 +13,7 @@ It follows a **two-server architecture** — one for Jenkins (automation) and on
 | 🚀 **Deployment Server** | Web app hosting | Apache Tomcat 9, Java 17 | Hosts the built `.war` file from Jenkins for public access |
 
 
-![Architecture ](IMG/6.png.png)
+![A](IMG/6.png)
 
 
 
@@ -293,3 +293,6 @@ java-maven-tomcat-deploy/
 🚀 **Auto Deployment:** Via GitHub Webhook  
 ☁️ **Hosting:** AWS EC2  
 🧩 **Build Tools:** Maven + Jenkins + Tomcat
+
+
+[def]: IMG/6.png
