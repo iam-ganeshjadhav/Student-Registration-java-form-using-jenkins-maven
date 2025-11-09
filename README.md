@@ -12,6 +12,11 @@ It follows a **two-server architecture** — one for Jenkins (automation) and on
 | 🧩 **Jenkins Server** | CI/CD automation | Jenkins, Maven, Java 17 | Pulls code from GitHub, builds using Maven, and deploys to remote Tomcat server |
 | 🚀 **Deployment Server** | Web app hosting | Apache Tomcat 9, Java 17 | Hosts the built `.war` file from Jenkins for public access |
 
+
+![Architecture ](IMG/6.png.png)
+
+
+
 ---
 
 ## 🌐 Workflow
@@ -220,16 +225,16 @@ http://<deployment-server-ip>:8080/<your-app-name>/
 ```
 You should see your Java web application running successfully 🎉
 
-## 📸 Screenshot Gallery
 
 ## 📸 Screenshot Gallery
 
 | Step | Description | Screenshot |
 |------|--------------|-------------|
-| 1️⃣ | Jenkins Build Success | ![Jenkins Build Success](images/jenkins-build-success.png) |
-| 2️⃣ | Maven Build Stage | ![Maven Build Stage](images/maven-build.png) |
-| 3️⃣ | Tomcat Deployment Complete | ![Tomcat Deployment Complete](images/tomcat-deploy.png) |
-| 4️⃣ | Final Java App Running | ![Final Java App Running](images/final-app.png) |
+| 1️⃣ | EC2 instance dashboard| ![Jenkins Build Success](IMG/2.png) |
+| 2️⃣ | GitHub repository | ![Maven Build Stage](IMG/3.png) |
+| 3️⃣ | Jenkins console output | ![Tomcat Deployment Complete](IMG/4.png) |
+| 4️⃣ | VS Code View | ![Final Java App Running](IMG/5.png) |
+| 5️⃣ | Finial Output | ![Final Java App ](IMG/1.png) |
 
 
 ## 🧠 Technologies Used
