@@ -13,7 +13,7 @@ It follows a **two-server architecture** — one for Jenkins (automation) and on
 | 🚀 **Deployment Server** | Web app hosting | Apache Tomcat 9, Java 17 | Hosts the built `.war` file from Jenkins for public access |
 
 
-![A](IMG/6.png)
+![A](IMG/1.png)
 
 
 
@@ -234,7 +234,7 @@ You should see your Java web application running successfully 🎉
 | 2️⃣ | GitHub repository | ![Maven Build Stage](IMG/3.png) |
 | 3️⃣ | Jenkins console output | ![Tomcat Deployment Complete](IMG/4.png) |
 | 4️⃣ | VS Code View | ![Final Java App Running](IMG/5.png) |
-| 5️⃣ | Finial Output | ![Final Java App ](IMG/1.png) |
+| 5️⃣ | Finial Output | ![Final Java App ](IMG/6.png) |
 
 
 ## 🧠 Technologies Used
